@@ -55,3 +55,75 @@ ul{
   ;
 }
 
+.label{
+  display: block;
+  margin-bottom: 8px;
+}
+
+.form-div{
+  width: 408px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.feedback-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.form-comment{
+  resize: none;
+  width: 360px;
+  height: 80px;
+  padding: 0;
+  border-radius: 4px;
+  border: 1px solid #808080;
+}
+
+.form-input{
+  width: 360px;
+  height: 40px;
+  padding: 0;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  
+}
+
+.form-input::placeholder{
+  color: #2E2F42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+  
+}
+
+.sub-button{
+  align-self: self-start;
+  margin-left: 23px;
+}
+
+.submit-button{
+  border-radius: 8px;
+  background: #4E75FF;
+  color: #FFFFFF;
+  border: 0;
+  padding: 8px 16px;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+}
+
+.submit-button:hover{
+  background: #6C8CFF;
+}
